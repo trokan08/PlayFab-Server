@@ -1,7 +1,10 @@
 using System;
+using System.Collections.Generic;
 using NaughtyAttributes;
+using PlayFab.ClientModels;
 using PlayFab.ClientServices.GameAnalytics;
 using UnityEngine;
+using FriendInfo =  Photon.Realtime;
 
 namespace GameManager
 {
@@ -32,6 +35,11 @@ namespace GameManager
         public Func<int> CoinCount;
         public Func<int> ObstacleCollidedCount;
         public Func<LevelVO> PlayedLevel;
+
+        public Action<string> AddFriend;
+        public Action<string> AddFriendResult;
+        public Action<string> RemoveFriend;
+        public Action<List<FriendInfo.FriendInfo>> OnFriendListUpdated;
 
     }
 }

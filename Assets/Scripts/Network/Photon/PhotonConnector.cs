@@ -1,9 +1,9 @@
-﻿using UnityEngine;
-using System;
+﻿using System;
 using Photon.Pun;
 using Photon.Realtime;
+using UnityEngine;
 
-namespace KnoxGameStudios
+namespace Network.Photon
 {
     public class PhotonConnector : MonoBehaviourPunCallbacks
     {
@@ -67,10 +67,10 @@ namespace KnoxGameStudios
        public override void OnConnectedToMaster()
        {
            Debug.Log("You have connected to the Photon Master Server");
-           if (!PhotonNetwork.InLobby)
+          /* if (!PhotonNetwork.InLobby)
            {
                PhotonNetwork.JoinLobby();
-           }
+           }*/
        }
 
        private void CreatePhotonRoom(string roomName)

@@ -7,6 +7,7 @@ using PlayFab.ConfigDatas;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UI;
 
 namespace GamePlay.Screen.LeaderBoard
 {
@@ -14,6 +15,7 @@ namespace GamePlay.Screen.LeaderBoard
     {
        [SerializeField] private List<ScoreContainer> _scoreContainers = new List<ScoreContainer>();
        [SerializeField] private GameObject _uıParent;
+       [SerializeField] private Button _nextLevel; 
        private Action _finishUI;
        private void OnEnable()
        {
@@ -23,12 +25,16 @@ namespace GamePlay.Screen.LeaderBoard
        private void AddListener()
        {
            GameActions.Instance.OpenLeaderBoard += SetScores;
+           _nextLevel.onClick.AddListener(NextLevel);
+
 
        }
 
        private void OnDisable()
        {
            GameActions.Instance.OpenLeaderBoard -= SetScores;
+           _nextLevel.onClick.RemoveListener(NextLevel);
+
        }
 
        public void SetScores(Action finishUI)
@@ -55,6 +61,19 @@ namespace GamePlay.Screen.LeaderBoard
                scoreContainer.Position.text = scores.Position.ToString();
            }
        }
+       
+       private void NextLevel()
+       {
+           GameActions.Instance.NextLevel.Invoke(DeActiveObject);
+       }
+
+       private void DeActiveObject()
+       {
+           _uıParent.SetActive(false);
+
+       }
+       
+       
        
        
     }
