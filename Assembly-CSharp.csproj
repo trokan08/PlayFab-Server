@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
-    <DefineConstants>UNITY_2021_3_14;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;ENABLE_PLAYFABSERVER_API;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_14;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;ENABLE_PLAYFABSERVER_API;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -46,30 +46,30 @@
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
      <Compile Include="Assets\Scripts\Data\ValueObjcets\ObstacleVO.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Enums\LevelName.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\ClientServices\GamePlayConfigs\CharacterMovementService.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\GamePlayConfigs\CharacterMovementService.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Entity\JoyStick\JoyStickController.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\ClientServices\PlayerData\SendPlayerLevelService.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\PlayerData\SendPlayerLevelService.cs" />
      <Compile Include="Assets\Scripts\GameManager\GameActions.cs" />
      <Compile Include="Assets\Scripts\GamePlay\EditorTools\ObstacleEditor.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\ClientServices\GameAnalytics\LevelInformationEvent.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\GameAnalytics\LevelInformationEvent.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Trigger\CoinTrigger.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\ClientServices\Username\SetUsernameService.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\Username\SetUsernameService.cs" />
      <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Trigger\ITrigger.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\ClientServices\PlayerData\GetPlayerLevelService.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\ClientServices\CloudScripts\SendPlayerInformations.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\PlayerData\GetPlayerLevelService.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\CloudScripts\SendPlayerInformations.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Entity\Timer.cs" />
      <Compile Include="Assets\Scripts\GameManager\GameLevelController.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Screen\CoinUI\CoinUI.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
      <Compile Include="Assets\Scripts\GameManager\ObjectsPool.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Screen\LeaderBoard\LeaderboarUI.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\Login\LoginPanel.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\Login\LoginPanel.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Screen\GameFinish\GameFinishUI.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\Login\RegisterLogin.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\Statics\PlayFabErrorMessage.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\ClientServices\Score\SendPlayerScoreService.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\Login\RegisterLogin.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\Statics\PlayFabErrorMessage.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\Score\SendPlayerScoreService.cs" />
      <Compile Include="Assets\Scripts\GamePlay\EditorTools\LevelEditor.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Entity\Character\CharacterController.cs" />
      <Compile Include="Assets\Scripts\Data\ValueObjcets\LevelDesignVO.cs" />
@@ -79,38 +79,59 @@
      <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Trigger\FinishTrigger.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Entity\Obstacle.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\ClientServices\GamePlayConfigs\GameLevel\GetLevelsService.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\GamePlayConfigs\GameLevel\GetLevelsService.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Entity\Character\CharacterTrigger.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\ClientServices\Username\GetUsernameService.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\Username\GetUsernameService.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\ClientServices\Score\GetLeaderBoardService.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\Score\GetLeaderBoardService.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Trigger\ObstacleCount.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\ServerServices\GameLevel\SendLevelsService.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\ClientServices\GamePlayConfigs\GameLevel\GetLevelInformationService.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\ServerServices\GameLevel\SendLevelsService.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\GamePlayConfigs\GameLevel\GetLevelInformationService.cs" />
      <Compile Include="Assets\Scripts\Data\ConfigData\CD_MovementSpeed.cs" />
-     <Compile Include="Assets\Scripts\PlayFab\ServerServices\GameLevel\SendLevelDesignService.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayFab\ServerServices\GameLevel\SendLevelDesignService.cs" />
      <Compile Include="Assets\Scripts\GameManager\GameAnalyticManager.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Screen\UsernameUI\UsernameUI.cs" />
+     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
+     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
+     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
+     <Compile Include="Assets\Scripts\Network\Photon\PhotonConnector.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Joystick Pack\Scripts\Joysticks" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\Scripts\GameManager" />
-     <Folder Include="Assets\Scripts\PlayFab\ClientServices\GamePlayConfigs\GameLevel" />
+     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
+     <Folder Include="Assets\Photon\PhotonChat\Demos" />
+     <Folder Include="Assets\Scripts\Network\PlayFab\ClientServices\GamePlayConfigs\GameLevel" />
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\Joystick Pack\Sprites\Vertical Backgrounds" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
      <Folder Include="Assets\Joystick Pack" />
-     <Folder Include="Assets\Scripts\PlayFab\ClientServices" />
+     <Folder Include="Assets\Scripts\Network\PlayFab\ClientServices" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
-     <Folder Include="Assets\Scripts\PlayFab\ClientServices\CloudScripts" />
+     <Folder Include="Assets\Scripts\Network\PlayFab\ClientServices\CloudScripts" />
+     <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
      <Folder Include="Assets\Art\Materials" />
      <Folder Include="Assets\NaughtyAttributes\Samples" />
+     <Folder Include="Assets\Scripts\Network\Photon" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <Folder Include="Assets\Scripts\GamePlay\EditorTools" />
+     <Folder Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing" />
      <Folder Include="Assets\Prefabs\UI" />
+     <Folder Include="Assets\Photon\PhotonUnityNetworking" />
      <Folder Include="Assets\Scripts\GamePlay\Screen\LeaderBoard" />
-     <Folder Include="Assets\Scripts\PlayFab\ServerServices" />
+     <Folder Include="Assets\Scripts\Network\PlayFab\ServerServices" />
      <Folder Include="Assets\NaughtyAttributes\Samples\DemoScene\TestAssets" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
@@ -121,11 +142,13 @@
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <Folder Include="Assets\Scripts\GamePlay\Trigger" />
      <Folder Include="Assets\Scripts\Data\ConfigData" />
+     <Folder Include="Assets\Photon\PhotonRealtime\Demos" />
      <Folder Include="Assets\Scripts\GamePlay\Entity\Character" />
      <Folder Include="Assets\Scripts\GamePlay\Screen\UsernameUI" />
      <Folder Include="Assets\Scripts\GamePlay\Entity" />
      <Folder Include="Assets\Joystick Pack\Prefabs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets\Photon\PhotonRealtime" />
      <Folder Include="Assets\Scripts\GamePlay\Screen\GameFinish" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\Resources" />
@@ -133,50 +156,68 @@
      <Folder Include="Assets\PlayFabEditorExtensions" />
      <Folder Include="Assets\Joystick Pack\Scripts" />
      <Folder Include="Assets\Art" />
+     <Folder Include="Assets\Photon\PhotonChat\Demos\DemoChat\Files" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <Folder Include="Assets\NaughtyAttributes" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <Folder Include="Assets\Prefabs" />
-     <Folder Include="Assets\Scripts\PlayFab\Statics" />
+     <Folder Include="Assets\Scripts\Network\PlayFab\Statics" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <Folder Include="Assets\Scripts\GamePlay\Screen\CoinUI" />
+     <Folder Include="Assets\Photon\PhotonLibs\Metro" />
+     <Folder Include="Assets\Photon" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.deps.json" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-     <Folder Include="Assets\Scripts\PlayFab\Login" />
+     <Folder Include="Assets\Photon\PhotonUnityNetworking\Resources" />
+     <None Include="Assets\Photon\PhotonUnityNetworking\readme.txt" />
+     <Folder Include="Assets\Scripts\Network\PlayFab\Login" />
+     <None Include="Assets\Photon\PhotonChat\Demos\DemoChat\Files\eurof_tt.txt" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
+     <Folder Include="Assets\Photon\PhotonChat\Demos\Common" />
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
      <Folder Include="Assets\Joystick Pack\Examples" />
      <Folder Include="Assets\TextMesh Pro\Fonts" />
      <Folder Include="Assets\Scripts\Data\ValueObjcets" />
-     <Folder Include="Assets\Scripts\PlayFab\ClientServices\PlayerData" />
+     <Folder Include="Assets\Scripts\Network\PlayFab\ClientServices\PlayerData" />
+     <Folder Include="Assets\Photon\PhotonChat" />
      <Folder Include="Assets\Scripts\GamePlay\Screen" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <Folder Include="Assets\Scripts\PlayFab" />
+     <Folder Include="Assets\Scripts\Network\PlayFab" />
+     <Folder Include="Assets\Scripts\Network" />
      <None Include="Assets\NaughtyAttributes\package.json" />
+     <Folder Include="Assets\Photon\PhotonUnityNetworking\Icons" />
      <Folder Include="Assets\Scripts\Data" />
-     <Folder Include="Assets\Scripts\PlayFab\ClientServices\Score" />
-     <Folder Include="Assets\Scripts\PlayFab\ClientServices\GameAnalytics" />
+     <Folder Include="Assets\Scripts\Network\PlayFab\ClientServices\Score" />
+     <Folder Include="Assets\Scripts\Network\PlayFab\ClientServices\GameAnalytics" />
      <Folder Include="Assets\Joystick Pack\Sprites\All Axis Backgrounds" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <Folder Include="Assets\Scripts\PlayFab\ClientServices\GamePlayConfigs" />
+     <Folder Include="Assets\Scripts\Network\PlayFab\ClientServices\GamePlayConfigs" />
      <Folder Include="Assets\Scripts\GamePlay\Entity\JoyStick" />
+     <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
      <Folder Include="Assets\Prefabs\Obstacles" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-     <Folder Include="Assets\Scripts\PlayFab\ServerServices\GameLevel" />
+     <Folder Include="Assets\Scripts\Network\PlayFab\ServerServices\GameLevel" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <Folder Include="Assets\Photon\PhotonChat\Demos\DemoChat" />
      <Folder Include="Assets\Scenes" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <Folder Include="Assets\TextMesh Pro\Documentation" />
      <Folder Include="Assets\Resources\Data\Config" />
+     <Folder Include="Assets\Photon\PhotonLibs\netstandard2.0" />
+     <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
+     <Folder Include="Assets\Photon\PhotonLibs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <Folder Include="Assets\Photon\PhotonLibs\WebSocket" />
      <Folder Include="Assets\Joystick Pack\Sprites\Horizontal Backgrounds" />
      <Folder Include="Assets\Joystick Pack\Sprites\Handles" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
      <Folder Include="Assets\NaughtyAttributes\Samples\DemoScene" />
-     <Folder Include="Assets\Scripts\PlayFab\ClientServices\Username" />
+     <Folder Include="Assets\Scripts\Network\PlayFab\ClientServices\Username" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <Folder Include="Assets\Scripts\GamePlay" />
      <Folder Include="Assets\Resources\Data" />
@@ -452,6 +493,12 @@
      </Reference>
      <Reference Include="Sirenix.Serialization">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="websocket-sharp">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+     </Reference>
+     <Reference Include="Photon3Unity3D">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:\Program Files (x86)\2021.3.14f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -922,6 +969,46 @@
     <ProjectReference Include="NaughtyAttributes.Core.csproj">
       <Project>{a9463862-7d59-030f-82c0-46af8de4ac81}</Project>
       <Name>NaughtyAttributes.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.csproj">
+      <Project>{8cef629e-b72c-573a-a1e0-a3da4b1c0bcf}</Project>
+      <Name>PhotonUnityNetworking</Name>
+    </ProjectReference>
+    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
+      <Project>{b1ff4a37-f63d-dece-a65b-7efb6c53a105}</Project>
+      <Name>PunDemos.DemoSlotcarEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
+      <Project>{6b50af9e-5a7d-3de1-458c-a0afa2764c1f}</Project>
+      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
+      <Project>{2bad44cd-f233-76ba-b3bf-aeeb276be43f}</Project>
+      <Name>PhotonUnityNetworking.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
+      <Project>{3cdd8d77-f3f5-b669-27cf-79c6d16a55d2}</Project>
+      <Name>PhotonUnityNetworking.Demos</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonChat.csproj">
+      <Project>{847b3feb-4f43-84bf-52e2-77c342205178}</Project>
+      <Name>PhotonChat</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
+      <Project>{6755985c-bd6d-d3cb-7cc5-96b0bc229822}</Project>
+      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
+      <Project>{d2fbb86d-d0ba-fc07-48b3-8317530fca76}</Project>
+      <Name>PhotonUnityNetworking.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
+      <Project>{60af8b79-654d-6e34-9261-a17f542f8d8f}</Project>
+      <Name>PunDemos.DemoHubEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonRealtime.csproj">
+      <Project>{f81f28f5-9e4f-69e8-5acc-9f4a5fea8051}</Project>
+      <Name>PhotonRealtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
