@@ -68,7 +68,7 @@ namespace Login
             GameActions.Instance.StartGame.Invoke(DeActiveObject);
             GameStatistics.PlayFabID = result.PlayFabId;
 //            Debug.Log(result.InfoResultPayload.PlayerProfile.PlayerId);
-            GameActions.Instance.GetUsername(result.PlayFabId);
+            GameActions.Instance.GetUsername.Invoke(result.PlayFabId);
            // GameActions.instance.SetUsername(result.InfoResultPayload.PlayerProfile.PlayerId);
 
 
