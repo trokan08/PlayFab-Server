@@ -112,6 +112,7 @@
      <Compile Include="Assets\Scripts\GamePlay\Screen\Friends\FriendUI.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Screen\Friends\DisplayFriends.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Screen\Friends\FriendUIController.cs" />
+     <Compile Include="Assets\Scripts\Network\Photon\PhotonChatController.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Joystick Pack\Scripts\Joysticks" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

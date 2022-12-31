@@ -704,6 +704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   friendNameText: {fileID: 5813026548768768491}
   _removeFriend: {fileID: 562174717961935410}
+  _inviteFriend: {fileID: 5813026548356692813}
 --- !u!1 &5813026548768768489
 GameObject:
   m_ObjectHideFlags: 0
