@@ -30,6 +30,7 @@ namespace GameManager
         public Action<int> SetGameFinishUI;
         public Action<string> SetUsername;
         public Action<string> GetUsername;
+        public Action<string> MatchMaking;
         public Action<Action> NextLevel;
         public Action UIReload;
         public Func<int> CoinCount;

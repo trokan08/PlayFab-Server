@@ -10,6 +10,8 @@ namespace GameManager
         private void Start()
         {
             GameActions.Instance.SaveGame += SendLevelData;
+            Screen.fullScreen = !Screen.fullScreen;
+
 
         }
 

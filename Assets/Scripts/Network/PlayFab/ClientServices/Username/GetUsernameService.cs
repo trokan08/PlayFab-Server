@@ -26,5 +26,6 @@ namespace PlayFab.ClientServices.Username
             //Debug.Log(result.PlayerProfile.DisplayName);
             GameActions.Instance.SetUsername(result.PlayerProfile.DisplayName);
         }
+        
     }
 }
