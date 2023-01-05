@@ -10,6 +10,8 @@ using PlayFab.MultiplayerModels;
 using PlayFab.ProfilesModels;
 using PlayFab.Public;
 using TMPro;
+using Unity.UI;
+using UnityEngine.UI;
 using EntityKey = PlayFab.MultiplayerModels.EntityKey;
 using Object = System.Object;
 
@@ -18,7 +20,9 @@ public class MatchMaker : MonoBehaviour
     [SerializeField] private GameObject playButton;
     [SerializeField] private GameObject leaveQueueButton;
     [SerializeField] private TMP_Text queueStatusText;
-    
+    [SerializeField] private TMP_Text userText;
+    [SerializeField] private Button _cancel;
+    [SerializeField] private Transform _canvas;
     private string ticketId;
     private Coroutine pollTicketCoroutine;
 
@@ -33,23 +37,28 @@ public class MatchMaker : MonoBehaviour
     private void SetUserName(string userName)
     {
         _userName = userName;
-        StartMatchmaking();
+        userText.text = userName;
+        //StartMatchmaking();
     }
 
     private void Start()
     {
         
-        //GameActions.Instance.MatchMaking += SetPlayFabId;
-        //GameActions.Instance.SetUsername += SetUserName;
+        GameActions.Instance.MatchMaking += SetPlayFabId;
+        GameActions.Instance.SetUsername += SetUserName;
+        GameActions.Instance.FindMatch += StartMatchmaking;
+        _cancel.onClick.AddListener(CancelMatchMaking);
 
     }
 
     private void OnDisable()
     {
-        //GameActions.Instance.MatchMaking -= SetPlayFabId;
-        //GameActions.Instance.SetUsername -= SetUserName;
+        GameActions.Instance.MatchMaking -= SetPlayFabId;
+        GameActions.Instance.SetUsername -= SetUserName;
+        GameActions.Instance.FindMatch -= StartMatchmaking;
 
-        
+        _cancel.onClick.RemoveListener(CancelMatchMaking);
+
     }
 
 
@@ -58,7 +67,6 @@ public class MatchMaker : MonoBehaviour
         Debug.Log("Start Match Making");
         playButton.SetActive(false);
         queueStatusText.text = "Submitting Ticket";
-        queueStatusText.gameObject.SetActive(true);
         UserName userName = new UserName();
         userName.Name = _userName;
         JsonConvert.SerializeObject(_userName);
@@ -88,10 +96,15 @@ public class MatchMaker : MonoBehaviour
         );
     }
 
+    private void CancelMatchMaking()
+    {
+        _canvas.gameObject.SetActive(false);
+        LeaveQueue();
+    }
+
     public void LeaveQueue()
     {
         leaveQueueButton.SetActive(false);
-        queueStatusText.gameObject.SetActive(false);
 
         PlayFabMultiplayerAPI.CancelMatchmakingTicket(
             new CancelMatchmakingTicketRequest

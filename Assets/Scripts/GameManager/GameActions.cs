@@ -42,6 +42,7 @@ namespace GameManager
         public Action<string> RemoveFriend;
         public Action<List<FriendInfo.FriendInfo>> OnFriendListUpdated;
         public Action<FriendInfo.FriendInfo> InviteFriend;
+        public Action FindMatch;
 
     }
 }

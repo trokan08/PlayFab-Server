@@ -16,6 +16,7 @@ namespace GamePlay.Screen.LeaderBoard
        [SerializeField] private List<ScoreContainer> _scoreContainers = new List<ScoreContainer>();
        [SerializeField] private GameObject _uıParent;
        [SerializeField] private Button _nextLevel; 
+       [SerializeField] private Button _matchMaking; 
        private Action _finishUI;
        private void OnEnable()
        {
@@ -26,6 +27,7 @@ namespace GamePlay.Screen.LeaderBoard
        {
            GameActions.Instance.OpenLeaderBoard += SetScores;
            _nextLevel.onClick.AddListener(NextLevel);
+           _matchMaking.onClick.AddListener(FindMatch);
 
 
        }
@@ -34,7 +36,7 @@ namespace GamePlay.Screen.LeaderBoard
        {
            GameActions.Instance.OpenLeaderBoard -= SetScores;
            _nextLevel.onClick.RemoveListener(NextLevel);
-
+           _matchMaking.onClick.RemoveListener(FindMatch);
        }
 
        public void SetScores(Action finishUI)
@@ -43,6 +45,11 @@ namespace GamePlay.Screen.LeaderBoard
            _finishUI = finishUI;
            GetLeaderBoardService getLeaderBoardService = new GetLeaderBoardService();
            getLeaderBoardService.GetLeaderBoard(SetTexts);
+       }
+
+       public void FindMatch()
+       {
+           GameActions.Instance.FindMatch.Invoke();
        }
 
        private void SetTexts(List<Scores> scoresList)
