@@ -6,7 +6,11 @@ namespace GamePlay.Enums
     {
         Cube,
         Sphere,
-        Cylinder
+        Cylinder,
+        Obstacle5,
+        Obstacle7,
+        Obstacle3,
+        Spike,
     }
 
     public static class ObstacleTypeConverter
@@ -16,6 +20,10 @@ namespace GamePlay.Enums
             {("Cube"),(ObstacleType.Cube)},
             {("Sphere"),(ObstacleType.Sphere)},
             {("Cylinder"),(ObstacleType.Cylinder)},
+            {("Obstacle5"),(ObstacleType.Obstacle5)},
+            {("Obstacle7"),(ObstacleType.Obstacle7)},
+            {("Obstacle3"),(ObstacleType.Obstacle3)},
+            {("Spike"),(ObstacleType.Spike)},
             
         };
     }

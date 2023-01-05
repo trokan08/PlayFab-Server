@@ -39,15 +39,15 @@ public class MatchMaker : MonoBehaviour
     private void Start()
     {
         
-        GameActions.Instance.MatchMaking += SetPlayFabId;
-        GameActions.Instance.SetUsername += SetUserName;
+        //GameActions.Instance.MatchMaking += SetPlayFabId;
+        //GameActions.Instance.SetUsername += SetUserName;
 
     }
 
     private void OnDisable()
     {
-        GameActions.Instance.MatchMaking -= SetPlayFabId;
-        GameActions.Instance.SetUsername -= SetUserName;
+        //GameActions.Instance.MatchMaking -= SetPlayFabId;
+        //GameActions.Instance.SetUsername -= SetUserName;
 
         
     }

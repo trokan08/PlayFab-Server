@@ -69,7 +69,7 @@ namespace Login
             GameStatistics.PlayFabID = result.PlayFabId;
 //            Debug.Log(result.InfoResultPayload.PlayerProfile.PlayerId);
             GameActions.Instance.GetUsername.Invoke(result.PlayFabId);
-            GameActions.Instance.MatchMaking.Invoke(result.EntityToken.Entity.Id);
+            GameActions.Instance.MatchMaking?.Invoke(result.EntityToken.Entity.Id);
             // GameActions.instance.SetUsername(result.InfoResultPayload.PlayerProfile.PlayerId);
 
 

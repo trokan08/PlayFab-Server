@@ -321,11 +321,14 @@
      <Reference Include="Unity.VisualScripting.YamlDotNet">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
+     <Reference Include="websocket-sharp">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+     </Reference>
      <Reference Include="Sirenix.OdinInspector.Editor">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Microsoft.IdentityModel.Tokens">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Tokens.dll</HintPath>
+     <Reference Include="Photon3Unity3D">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.OdinInspector.Attributes">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
@@ -341,6 +344,9 @@
      </Reference>
      <Reference Include="unityplastic">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.IdentityModel.Tokens">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Tokens.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
@@ -369,11 +375,23 @@
      <Reference Include="Microsoft.Identity.Client">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.Identity.Client.dll</HintPath>
      </Reference>
-     <Reference Include="websocket-sharp">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+     <Reference Include="DemiEditor">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
      </Reference>
-     <Reference Include="Photon3Unity3D">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+     <Reference Include="DOTween">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenPro">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+     </Reference>
+     <Reference Include="DemiLib">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenProEditor">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenEditor">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -795,14 +813,11 @@
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <Reference Include="Unity.Postprocessing.Editor">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
@@ -810,17 +825,26 @@
      <Reference Include="UnityEngine.UI">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Services.Core">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.VisualScripting.Core">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Runtime">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
@@ -837,17 +861,27 @@
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Postprocessing.Editor">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Runtime">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
-     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{1b45404d-ac7e-c252-e9f7-e8cfbca7bf8b}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{0d18fb20-8cbe-cada-f548-7c394ff46862}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{625d4331-365a-dba6-f593-6d171b1bf2a7}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
+      <Project>{6b50af9e-5a7d-3de1-458c-a0afa2764c1f}</Project>
+      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonChat.csproj">
+      <Project>{847b3feb-4f43-84bf-52e2-77c342205178}</Project>
+      <Name>PhotonChat</Name>
     </ProjectReference>
     <ProjectReference Include="PlayFabSDKEditor.csproj">
       <Project>{6a652170-8007-a7a6-fd59-32061e3a17b5}</Project>
@@ -865,45 +899,13 @@
       <Project>{85531552-88e3-ea7d-7fed-0222b1d24123}</Project>
       <Name>PlayFab</Name>
     </ProjectReference>
-    <ProjectReference Include="NaughtyAttributes.Editor.csproj">
-      <Project>{0ffc7d9d-98f3-6096-2fd4-1f8dff56bced}</Project>
-      <Name>NaughtyAttributes.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="NaughtyAttributes.Core.csproj">
-      <Project>{a9463862-7d59-030f-82c0-46af8de4ac81}</Project>
-      <Name>NaughtyAttributes.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{8cef629e-b72c-573a-a1e0-a3da4b1c0bcf}</Project>
-      <Name>PhotonUnityNetworking</Name>
-    </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{b1ff4a37-f63d-dece-a65b-7efb6c53a105}</Project>
-      <Name>PunDemos.DemoSlotcarEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{6b50af9e-5a7d-3de1-458c-a0afa2764c1f}</Project>
-      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{2bad44cd-f233-76ba-b3bf-aeeb276be43f}</Project>
-      <Name>PhotonUnityNetworking.Utilities</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{3cdd8d77-f3f5-b669-27cf-79c6d16a55d2}</Project>
-      <Name>PhotonUnityNetworking.Demos</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonChat.csproj">
-      <Project>{847b3feb-4f43-84bf-52e2-77c342205178}</Project>
-      <Name>PhotonChat</Name>
+    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
+      <Project>{d2fbb86d-d0ba-fc07-48b3-8317530fca76}</Project>
+      <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
       <Project>{6755985c-bd6d-d3cb-7cc5-96b0bc229822}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{d2fbb86d-d0ba-fc07-48b3-8317530fca76}</Project>
-      <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
       <Project>{60af8b79-654d-6e34-9261-a17f542f8d8f}</Project>
@@ -912,6 +914,30 @@
     <ProjectReference Include="PhotonRealtime.csproj">
       <Project>{f81f28f5-9e4f-69e8-5acc-9f4a5fea8051}</Project>
       <Name>PhotonRealtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
+      <Project>{2bad44cd-f233-76ba-b3bf-aeeb276be43f}</Project>
+      <Name>PhotonUnityNetworking.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.csproj">
+      <Project>{8cef629e-b72c-573a-a1e0-a3da4b1c0bcf}</Project>
+      <Name>PhotonUnityNetworking</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Editor.csproj">
+      <Project>{0ffc7d9d-98f3-6096-2fd4-1f8dff56bced}</Project>
+      <Name>NaughtyAttributes.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
+      <Project>{3cdd8d77-f3f5-b669-27cf-79c6d16a55d2}</Project>
+      <Name>PhotonUnityNetworking.Demos</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Core.csproj">
+      <Project>{a9463862-7d59-030f-82c0-46af8de4ac81}</Project>
+      <Name>NaughtyAttributes.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
+      <Project>{b1ff4a37-f63d-dece-a65b-7efb6c53a105}</Project>
+      <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,3 +1,4 @@
+using DG.Tweening;
 using GameManager;
 using UnityEngine;
 
@@ -7,8 +8,8 @@ namespace GamePlay.Trigger
     {
         public void Action(GameObject gameObject)
         {
-            this.gameObject.SetActive(false);
-            GameActions.Instance.CoinCollected.Invoke();
+            transform.DOMoveY(transform.position.y + 15, 3f).OnComplete(() => { gameObject.SetActive(false); });
+            GameActions.Instance.CoinCollected.Invoke(1);
         }
     }
 }

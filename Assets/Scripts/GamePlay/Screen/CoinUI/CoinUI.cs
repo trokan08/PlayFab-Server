@@ -36,10 +36,10 @@ namespace GamePlay.Screen.CoinUI
 
         }
 
-        private void CoinCollected()
+        private void CoinCollected(int val)
         {
-            coinCount += 1;
-
+            coinCount += val;
+            coinCount = Mathf.Clamp(coinCount, 0, 999);
             _coinText.text = coinCount.ToString();
         }
 

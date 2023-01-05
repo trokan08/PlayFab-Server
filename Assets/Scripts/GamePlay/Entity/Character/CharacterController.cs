@@ -11,7 +11,7 @@ namespace Runtime.Contexts.Main.Entity
     public class CharacterController : MonoBehaviour
     {
         [SerializeField] private Transform _visual;
-        
+        [SerializeField] private CharacterAnimation _characterAnimation;
         private float _moveSpeed ;
 
         private float _turnSpeed = 5f;
@@ -47,6 +47,14 @@ namespace Runtime.Contexts.Main.Entity
         private void FixedUpdate()
         {
             Rb.velocity = Direction * _moveSpeed;
+            if (Direction == Vector3.zero)
+            {
+                _characterAnimation.Idle();
+            }
+            else
+            {
+                _characterAnimation.Run();
+            }
 
             if(Direction != Vector3.zero)
             {

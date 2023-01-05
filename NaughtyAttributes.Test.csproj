@@ -41,44 +41,44 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\_NaughtyScriptableObject.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\ResizableTextAreaTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\OnValueChangedTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\_TestScriptableObjectA.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\SortingLayerTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\BoxGroupTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\ValidateInputTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\RequiredTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\ShowAssetPreviewTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\ExpandableTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\ButtonTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\_NaughtyComponent.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\TagTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\ReadOnlyTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\ShowIfTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\CurveRangeTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\SceneTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\HideIfTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\MinMaxSliderTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\MinMaxValueTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\EnumFlagsTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\HorizontalLineTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\InfoBoxTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\DisableIfTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\DropdownTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\_TestScriptableObjectB.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\ShowNativePropertyTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\AnimatorParamTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\ReorderableListTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\ShowNonSerializedFieldTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\EnableIfTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\LayerTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\LabelTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\ProgressBarTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\InputAxisTest.cs" />
-     <Compile Include="Assets\NaughtyAttributes\Scripts\Test\FoldoutTest.cs" />
-     <Folder Include="Assets\NaughtyAttributes\Scripts\Test" />
-     <None Include="Assets\NaughtyAttributes\Scripts\Test\NaughtyAttributes.Test.asmdef" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\_NaughtyScriptableObject.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\ResizableTextAreaTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\OnValueChangedTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\_TestScriptableObjectA.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\SortingLayerTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\BoxGroupTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\ValidateInputTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\RequiredTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\ShowAssetPreviewTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\ExpandableTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\ButtonTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\_NaughtyComponent.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\TagTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\ReadOnlyTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\ShowIfTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\CurveRangeTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\SceneTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\HideIfTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\MinMaxSliderTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\MinMaxValueTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\EnumFlagsTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\HorizontalLineTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\InfoBoxTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\DisableIfTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\DropdownTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\_TestScriptableObjectB.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\ShowNativePropertyTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\AnimatorParamTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\ReorderableListTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\ShowNonSerializedFieldTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\EnableIfTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\LayerTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\LabelTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\ProgressBarTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\InputAxisTest.cs" />
+     <Compile Include="Assets\Art\NaughtyAttributes\Scripts\Test\FoldoutTest.cs" />
+     <Folder Include="Assets\Art\NaughtyAttributes\Scripts\Test" />
+     <None Include="Assets\Art\NaughtyAttributes\Scripts\Test\NaughtyAttributes.Test.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files (x86)\2021.3.14f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -349,11 +349,14 @@
      <Reference Include="Unity.VisualScripting.YamlDotNet">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
+     <Reference Include="websocket-sharp">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+     </Reference>
      <Reference Include="Sirenix.OdinInspector.Editor">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Microsoft.IdentityModel.Tokens">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Tokens.dll</HintPath>
+     <Reference Include="Photon3Unity3D">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.OdinInspector.Attributes">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
@@ -369,6 +372,9 @@
      </Reference>
      <Reference Include="unityplastic">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.IdentityModel.Tokens">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Tokens.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
@@ -397,11 +403,23 @@
      <Reference Include="Microsoft.Identity.Client">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.Identity.Client.dll</HintPath>
      </Reference>
-     <Reference Include="websocket-sharp">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+     <Reference Include="DemiEditor">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
      </Reference>
-     <Reference Include="Photon3Unity3D">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+     <Reference Include="DOTween">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenPro">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+     </Reference>
+     <Reference Include="DemiLib">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenProEditor">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenEditor">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:\Program Files (x86)\2021.3.14f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

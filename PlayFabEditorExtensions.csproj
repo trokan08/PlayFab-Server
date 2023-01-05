@@ -353,11 +353,14 @@
      <Reference Include="Unity.VisualScripting.YamlDotNet">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
+     <Reference Include="websocket-sharp">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+     </Reference>
      <Reference Include="Sirenix.OdinInspector.Editor">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Microsoft.IdentityModel.Tokens">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Tokens.dll</HintPath>
+     <Reference Include="Photon3Unity3D">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.OdinInspector.Attributes">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
@@ -373,6 +376,9 @@
      </Reference>
      <Reference Include="unityplastic">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.IdentityModel.Tokens">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Tokens.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
@@ -401,11 +407,23 @@
      <Reference Include="Microsoft.Identity.Client">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.Identity.Client.dll</HintPath>
      </Reference>
-     <Reference Include="websocket-sharp">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+     <Reference Include="DemiEditor">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
      </Reference>
-     <Reference Include="Photon3Unity3D">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+     <Reference Include="DOTween">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenPro">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+     </Reference>
+     <Reference Include="DemiLib">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenProEditor">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenEditor">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

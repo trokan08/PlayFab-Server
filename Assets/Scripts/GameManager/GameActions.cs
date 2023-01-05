@@ -23,7 +23,7 @@ namespace GameManager
 
         public Action<Action> StartGame;
         public Action<Vector3> JoyStickDirection;
-        public Action CoinCollected;
+        public Action<int> CoinCollected;
         public Action GameSucces;
         public Action SaveGame;
         public Action<Action> OpenLeaderBoard;
