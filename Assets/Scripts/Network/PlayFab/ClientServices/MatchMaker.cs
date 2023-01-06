@@ -10,7 +10,6 @@ using PlayFab.MultiplayerModels;
 using PlayFab.ProfilesModels;
 using PlayFab.Public;
 using TMPro;
-using Unity.UI;
 using UnityEngine.UI;
 using EntityKey = PlayFab.MultiplayerModels.EntityKey;
 using Object = System.Object;
@@ -167,7 +166,6 @@ public class MatchMaker : MonoBehaviour
             case "Canceled":
                 StopCoroutine(pollTicketCoroutine);
                 leaveQueueButton.SetActive(false);
-                queueStatusText.gameObject.SetActive(false);
                 playButton.SetActive(true);
                 break;
         }

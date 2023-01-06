@@ -65,6 +65,7 @@
      <Compile Include="Assets\Scripts\GamePlay\Trigger\CoinTrigger.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Screen\Friends\FriendUIController.cs" />
      <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\Username\SetUsernameService.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Entity\Character\CharacterAnimation.cs" />
      <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Trigger\ITrigger.cs" />
      <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\PlayerData\GetPlayerLevelService.cs" />
@@ -108,6 +109,7 @@
      <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\GamePlayConfigs\GameLevel\GetLevelInformationService.cs" />
      <Compile Include="Assets\Scripts\Data\ConfigData\CD_MovementSpeed.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Entity\CameraController.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
      <Compile Include="Assets\Scripts\Network\Photon\PhotonChatController.cs" />
      <Compile Include="Assets\Scripts\Network\PlayFab\ServerServices\GameLevel\SendLevelDesignService.cs" />
@@ -115,8 +117,6 @@
      <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\MatchMaker.cs" />
      <Compile Include="Assets\Scripts\GameManager\GameAnalyticManager.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Screen\UsernameUI\UsernameUI.cs" />
-     <Compile Include="Assets\Scripts\GamePlay\Entity\Character\CharacterAnimation.cs" />
-     <Compile Include="Assets\Scripts\GamePlay\Entity\CameraController.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Joystick Pack\Scripts\Joysticks" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -526,15 +526,6 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>C:\Program Files (x86)\2021.3.14f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
-     <Reference Include="Sirenix.Utilities.Editor">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="websocket-sharp">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
-     </Reference>
-     <Reference Include="Sirenix.OdinInspector.Editor">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Photon3Unity3D">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
      </Reference>
@@ -544,11 +535,8 @@
      <Reference Include="Sirenix.Serialization.Config">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
      </Reference>
-     <Reference Include="Sirenix.Utilities">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <Reference Include="DOTween">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
@@ -556,17 +544,29 @@
      <Reference Include="Newtonsoft.Json">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
-     <Reference Include="Sirenix.Serialization">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
-     </Reference>
-     <Reference Include="DOTween">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
-     </Reference>
      <Reference Include="DOTweenPro">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
      </Reference>
+     <Reference Include="Sirenix.Utilities.Editor">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="DemiLib">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+     </Reference>
+     <Reference Include="websocket-sharp">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.OdinInspector.Editor">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Utilities">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Serialization">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:\Program Files (x86)\2021.3.14f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -967,9 +967,6 @@
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.Postprocessing.Editor">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
      </Reference>
@@ -985,6 +982,9 @@
      <Reference Include="Unity.VisualScripting.Flow">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
@@ -997,11 +997,17 @@
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Postprocessing.Runtime">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
@@ -1017,12 +1023,6 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="com.unity.cinemachine.editor">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Cinemachine">
-     <HintPath>D:\Yüksek Lisans\Server\Playfab - Copy\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
