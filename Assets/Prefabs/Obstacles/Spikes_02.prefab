@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5800800477809790490}
   - component: {fileID: 5884811302691474946}
   - component: {fileID: 1802651459736449792}
+  - component: {fileID: 2155696930149029495}
   m_Layer: 0
   m_Name: Spikes_02
   m_TagString: Untagged
@@ -112,3 +113,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _obstacleType: 6
+--- !u!114 &2155696930149029495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5800800477809790501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8019aa2c6189419993f8050e95b5f896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

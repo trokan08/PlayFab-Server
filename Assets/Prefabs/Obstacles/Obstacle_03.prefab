@@ -100,7 +100,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8255945808872521878}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -269,6 +269,7 @@ GameObject:
   - component: {fileID: 8255945809114960579}
   - component: {fileID: 5072998587992968228}
   - component: {fileID: 2532423309605851726}
+  - component: {fileID: 2782565121184710881}
   m_Layer: 0
   m_Name: Obstacle_3_Saw
   m_TagString: Untagged
@@ -307,7 +308,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8255945809114960589}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -462,6 +463,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3396012, y: 1.3396008, z: 0.084881574}
   m_Center: {x: -0.00000047683716, y: 0.00000047683716, z: 0.001324717}
+--- !u!114 &2782565121184710881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8255945809114960589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8019aa2c6189419993f8050e95b5f896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8255945809339668051
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,6 +488,7 @@ GameObject:
   - component: {fileID: 8255945809339668049}
   - component: {fileID: 3854252167694284469}
   - component: {fileID: 6058853287161958638}
+  - component: {fileID: 8876847785799808422}
   m_Layer: 0
   m_Name: Obstacle_3_Saw_2
   m_TagString: Untagged
@@ -513,7 +527,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8255945809339668051}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -668,6 +682,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3396012, y: 1.3396004, z: 0.084881686}
   m_Center: {x: -0.00000047683716, y: 0.00000035762787, z: 0.001324825}
+--- !u!114 &8876847785799808422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8255945809339668051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8019aa2c6189419993f8050e95b5f896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8255945809510699641
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,7 +743,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8255945809510699641}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -803,7 +829,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8255945810133477181}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0

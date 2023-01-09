@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace GamePlay.Trigger
 {
-    public class Obstacle : MonoBehaviour, ITrigger
+    public class Obstacle : MonoBehaviour
     {
         [SerializeField] private ObstacleType _obstacleType;
 
@@ -13,9 +13,6 @@ namespace GamePlay.Trigger
             get => _obstacleType;
         }
 
-        public void Action(GameObject gameObject)
-        {
-            GameActions.Instance.CoinCollected.Invoke(-1);
-        }
+       
     }
 }

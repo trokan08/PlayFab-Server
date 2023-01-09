@@ -117,6 +117,7 @@
      <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\MatchMaker.cs" />
      <Compile Include="Assets\Scripts\GameManager\GameAnalyticManager.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Screen\UsernameUI\UsernameUI.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Trigger\ObstacleTrigger.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Joystick Pack\Scripts\Joysticks" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
