@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Network\Photon\PhotonFriendUpdate.cs" />
      <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\GamePlayConfigs\CharacterMovementService.cs" />
      <Compile Include="Assets\Art\Fantasy UI\Samples\IconPreview.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Trigger\ObstacleTrigger.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Entity\JoyStick\JoyStickController.cs" />
      <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\PlayerData\SendPlayerLevelService.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
@@ -117,7 +118,7 @@
      <Compile Include="Assets\Scripts\Network\PlayFab\ClientServices\MatchMaker.cs" />
      <Compile Include="Assets\Scripts\GameManager\GameAnalyticManager.cs" />
      <Compile Include="Assets\Scripts\GamePlay\Screen\UsernameUI\UsernameUI.cs" />
-     <Compile Include="Assets\Scripts\GamePlay\Trigger\ObstacleTrigger.cs" />
+     <Compile Include="Assets\Scripts\DailyReward.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Joystick Pack\Scripts\Joysticks" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -145,6 +146,7 @@
      <Folder Include="Assets\Scripts\GamePlay\EditorTools" />
      <Folder Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing" />
      <Folder Include="Assets\Prefabs\UI" />
+     <Folder Include="Assets\StreamingAssets" />
      <Folder Include="Assets\Art\Fantasy UI\Samples" />
      <Folder Include="Assets\Scripts\Network\PlayFab\Friends" />
      <Folder Include="Assets\Art\3D\Materials" />

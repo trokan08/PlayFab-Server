@@ -277,6 +277,7 @@ GameObject:
   - component: {fileID: 8461245089664949247}
   - component: {fileID: 8461245089664949241}
   - component: {fileID: 8461245089664949240}
+  - component: {fileID: 4331933637120361718}
   m_Layer: 0
   m_Name: Obstacle_7
   m_TagString: Untagged
@@ -349,6 +350,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4331933637120361718
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8461245089664949246}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8424508289291378894, guid: f6d191e6c2dbb4049b30eb7b4abd8199, type: 3}
 --- !u!1 &8461245089742162622
 GameObject:
   m_ObjectHideFlags: 0

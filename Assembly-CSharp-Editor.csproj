@@ -42,11 +42,13 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Joystick Pack\Scripts\Editor\VariableJoystickEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\CreateAssetBundles.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Editor\DynamicJoystickEditor.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Editor\FloatingJoystickEditor.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Editor\JoystickEditor.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\Editor\ChatEditor.cs" />
      <Folder Include="Assets\Photon\PhotonChat\Demos\DemoChat\Editor" />
+     <Folder Include="Assets\Scripts\Editor" />
      <Folder Include="Assets\Joystick Pack\Scripts\Editor" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files (x86)\2021.3.14f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

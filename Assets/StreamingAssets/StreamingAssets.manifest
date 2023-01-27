@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 2867957327
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: char
+      Dependencies: {}
+    Info_1:
+      Name: bundletry
+      Dependencies: {}

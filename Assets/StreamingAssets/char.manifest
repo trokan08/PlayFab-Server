@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 2429774886
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9c9e216c15c2de49c4c969d20f02fb27
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3dfc6fa9ee217203c602b3ddc4870aa6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: da696d26d6cdf794daf2cf9128b80bb3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c2a48be0f1894d8bb7404b57ef8afc35, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2adc546985ac425d83a1aa4033daf112, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/Character 2.prefab
+Dependencies: []

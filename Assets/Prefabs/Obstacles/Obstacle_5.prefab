@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3206262770180056005}
   - component: {fileID: 3206262770180056006}
   - component: {fileID: 4100788362540599170}
+  - component: {fileID: 4966025166416942109}
   m_Layer: 0
   m_Name: O_5_Direct
   m_TagString: Untagged
@@ -193,6 +194,20 @@ MonoBehaviour:
   optionalScrambleMode: 0
   optionalShakeRandomnessMode: 0
   optionalString: 
+--- !u!64 &4966025166416942109
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3206262770180056000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1642573918356209989, guid: d855f3de1efc22242a1f701d1466f907, type: 3}
 --- !u!1 &3206262770845733621
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,6 +221,7 @@ GameObject:
   - component: {fileID: 3206262770845733627}
   - component: {fileID: 4787260288345702195}
   - component: {fileID: 8765763883057634746}
+  - component: {fileID: 3586276084816522457}
   m_Layer: 0
   m_Name: O_Saw_5
   m_TagString: Untagged
@@ -398,6 +414,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8019aa2c6189419993f8050e95b5f896, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!64 &3586276084816522457
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3206262770845733621}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3840074811089406126, guid: d855f3de1efc22242a1f701d1466f907, type: 3}
 --- !u!1 &3206262771124309369
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +439,7 @@ GameObject:
   - component: {fileID: 3206262771124309368}
   - component: {fileID: 3206262771124309374}
   - component: {fileID: 3206262771124309375}
+  - component: {fileID: 7232094423533140534}
   m_Layer: 0
   m_Name: Obstacle_5
   m_TagString: Untagged
@@ -481,6 +512,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7232094423533140534
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3206262771124309369}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8862827975000071034, guid: d855f3de1efc22242a1f701d1466f907, type: 3}
 --- !u!1 &3206262771730347063
 GameObject:
   m_ObjectHideFlags: 0
